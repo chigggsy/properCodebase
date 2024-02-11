@@ -1,8 +1,7 @@
 import animateTitle from './features/animateTitle'
-import createBadge from './features/createBasge'
+import sayHello from './features/sayHello'
 import './styles/style.css'
+import './styles/background.css'
 
-console.log('Welcome to Vite + JS + Webflow!')
-
-createBadge()
+sayHello()
 animateTitle()
